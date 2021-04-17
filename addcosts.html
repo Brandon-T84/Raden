@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+
+ <link rel="stylesheet" type="text/css" href="createaccount.css"> 
+<div class="login-box">
+   
+  <form>
+  	<div class="housingcosts">
+    <div class="user-box">
+      <input id="description" type="text" name="" required="">
+      <label>Cost</label>
+    </div>
+
+ </div>
+  <div class="user-box">
+      <input id="description2" type="text" name="" required="">
+      <label>Description/Date</label>
+    </div>
+<center><img class="logo"src="logo.jpg" style="position:absolute;width:422px;height:191px;"/></center>
+    <style>
+body {
+
+
+    background-color: #242526;
+ 
+
+}
+
+
+
+</style>
+
+   <a onclick="gotoaddcost();">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    Add
+    </a>
+
+       <a onclick="getaccountdata();">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    View Totals
+    </a>
+</form>
+
+
+<details class="custom-select">
+
+  <summary class="radios">
+
+    <input style="color:white;  font-family: 'Montserrat', sans-serif;" type="radio" name="item" id="default" title="Select Category" checked>
+
+
+    <input value="Housing" style="color:white; font-family: 'Roboto', sans-serif;"type="radio" name="item" id="item1" title="Housing">
+    <input value="Food" style="color:white; font-family: 'Roboto', sans-serif;"type="radio" name="item" id="item2" title="Food">
+    <input value="Transportation" style="color:white; font-family: 'Roboto', sans-serif;"type="radio" name="item" id="item3" title="Transportation">
+    <input value="Healthcare" style="color:white; font-family: 'Roboto', sans-serif;"type="radio" name="item" id="item4" title="Healthcare">
+    <input value="Insurance" style="color:white; font-family: 'Roboto', sans-serif;"type="radio" name="item" id="item5" title="Insurance">
+    <input value="Other Expenses" style="color:white; font-family: 'Roboto', sans-serif;"type="radio" name="item" id="item6" title="Other Expenses">
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+  </summary>
+
+
+  <ul class="list">
+    <li>
+      <label for="item1">Housing</label>
+    </li>
+    <li>
+      <label for="item2">Food</label>
+    </li>
+    <li>
+      <label for="item3">Transportation</label>
+    </li>
+    <li>
+      <label for="item4">Healthcare</label>
+    </li>
+    <li>
+      <label for="item5">Insurance</label>
+    </li>
+    <li>
+      <label for="item6">Other Expenses</label>
+    </li>
+  </ul>
+
+
+</details>
+
+<script type="text/javascript" src="addcosts.js"></script>
